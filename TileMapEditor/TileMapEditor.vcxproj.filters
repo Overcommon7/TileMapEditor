@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP">
+      <UniqueIdentifier>{779190a7-7208-4ee8-b8f8-06f93f0bde59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header">
+      <UniqueIdentifier>{0a42e5cc-a5c3-418b-962a-c238aeded91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextFiles">
+      <UniqueIdentifier>{a9fdfddf-9566-467e-9ae6-8f00912bb139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{66f1547c-9860-4f67-8863-070ca6abfdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP\GameClasses">
+      <UniqueIdentifier>{eae65e00-95d2-498a-8647-68c9dd0fda67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header\Libraries">
+      <UniqueIdentifier>{4f3fffae-ba09-44d8-bede-6b5e7fcb1935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header\Classes">
+      <UniqueIdentifier>{346595e4-5f42-432c-b169-833f0d4fec80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header\Utils">
+      <UniqueIdentifier>{61f0a556-398f-4f53-bd22-e4775af11a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextFiles\Documentation">
+      <UniqueIdentifier>{d69f66d7-21ed-4df3-a3ac-8aa62551a0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextFiles\Levels">
+      <UniqueIdentifier>{8be517fb-029c-4f55-9ec5-ee08574a4b95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Clicker.cpp">
+      <Filter>Source Files\CPP\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolDefines.cpp" />
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\CPP\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\CPP\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="TextButton.cpp">
+      <Filter>Source Files\CPP\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\CPP\GameClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files\Header\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolDefines.h" />
+    <ClInclude Include="Clicker.h">
+      <Filter>Source Files\Header\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Header\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadAssests.h">
+      <Filter>Source Files\Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Header\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Source Files\Header\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TextButton.h">
+      <Filter>Source Files\Header\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Header\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TextFiles\LevelTextFormatting.txt">
+      <Filter>Source Files\TextFiles\Documentation</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

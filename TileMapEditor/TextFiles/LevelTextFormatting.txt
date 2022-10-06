@@ -1,0 +1,16 @@
+1 550 350 2 3, 2 600 50 3 4
+1 550 350 2 3, 2 600 50 3 4
+
+
+This would represent 4 tiles in the editor where each comma seperated segament is data to got into a tile
+
+segment1: tileMap number
+segment2: the level X-pos
+segment3: the level Y-pos
+segment4: the tile map Colunm number
+segment5: the tile map Row number
+
+
+if ((j * TILE_DIMENSION < screenWidth - (TILE_MAP_WINDOW_WIDTH * TILE_DIMENSION)) || 
+	(j > screenWidth && j * TILE_DIMENSION < (screenWidth * 2) - (TILE_MAP_WINDOW_WIDTH * TILE_DIMENSION)) ||
+	(j > screenWidth * 2 && j * TILE_DIMENSION < (screenWidth * 3) - (TILE_MAP_WINDOW_WIDTH * TILE_DIMENSION))))
